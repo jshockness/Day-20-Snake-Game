@@ -14,7 +14,6 @@ class Scoreboard(Turtle):
     self.hideturtle()
     self.update_score()
     
-  
   def update_score(self):
     self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
 
