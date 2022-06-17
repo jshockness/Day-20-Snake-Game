@@ -25,7 +25,7 @@ class Snake:
     self.segments.append(new_segment)
 
   def extend(self):
-    self.add_segment(self.segment[-1].position())
+    self.add_segment(self.segments[-1].position())
 
   def reset(self):
     for seg in self.segments:
